@@ -633,14 +633,14 @@
         function triggerAccident() {
             gameOver = true;
             document.getElementById('overlayTitle').innerText = "ACCIDENT DETECTED!";
-            document.getElementById('overlayText').innerText = "This is what happens in an unsustainable city! Without pedestrian bridges or traffic signals, citizens face constant life-threatening hazards.";
+            document.getElementById('overlayText').innerText = "This is what happens in an unsustainable city. Without pedestrian bridges or traffic signals, citizens face constant life-threatening hazards.";
             document.getElementById('gameOverlay').classList.remove('hidden');
         }
 
         function triggerSuccessOutcome() {
             gameOver = true;
             document.getElementById('overlayTitle').innerText = "YOU MADE IT... BUT STILL!";
-            document.getElementById('overlayText').innerText = "Even if you managed to cross the road by pure luck, this city is STILL unsustainable! Pedestrians should not have to risk their lives dodging high-speed cars just to walk across a street.";
+            document.getElementById('overlayText').innerText = "Even if you managed to cross the road by pure luck, this city is STILL unsustainable. Pedestrians should not have to risk their lives dodging high-speed cars just to walk across a street.";
             document.getElementById('gameOverlay').classList.remove('hidden');
         }
 
