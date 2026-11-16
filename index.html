@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainable Cities & Communities (Malaysia)</title>
+    <title>Sustainable Cities and Communities in Malaysia</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%23008080%22><path d=%22M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z%22/></svg>">
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body {
@@ -16,7 +14,6 @@
             scroll-behavior: smooth;
         }
 
-        /* Modern Gradient Mesh Backgrounds */
         .bg-mesh {
             background-color: #090d16;
             background-image: 
@@ -24,7 +21,6 @@
                 radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.1) 0px, transparent 50%);
         }
 
-        /* Glassmorphism Card Style */
         .glass-card {
             background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(12px);
@@ -39,7 +35,6 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        /* Fade Animation for SPA Page Transitions */
         .tab-page {
             animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
@@ -55,7 +50,7 @@
             }
         }
 
-        /* Floating particles for Clicker Game */
+
         .floating-idea {
             position: absolute;
             pointer-events: none;
@@ -79,7 +74,6 @@
             }
         }
 
-        /* Custom Modern Scrollbar */
         ::-webkit-scrollbar {
             width: 7px;
         }
@@ -97,11 +91,9 @@
 </head>
 <body class="bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500 selection:text-slate-950">
 
-    <!-- Top Navigation Header -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <!-- Logo & Brand -->
                 <div class="flex items-center gap-3 cursor-pointer group" onclick="switchTab('hero')">
                     <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-slate-950 font-black text-lg shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
                         <i data-lucide="home" class="w-5 h-5"></i>
@@ -112,7 +104,6 @@
                     </div>
                 </div>
 
-                <!-- Desktop Nav Links -->
                 <div class="hidden md:flex items-center space-x-1.5">
                     <button onclick="switchTab('hero')" class="nav-btn px-3.5 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white hover:bg-slate-900 transition-all" data-tab="hero">Home</button>
                     <button onclick="switchTab('problem')" class="nav-btn px-3.5 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white hover:bg-slate-900 transition-all" data-tab="problem"> The Problem</button>
@@ -122,7 +113,6 @@
                     <button onclick="switchTab('feedback')" class="nav-btn ml-3 px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 hover:opacity-95 shadow-lg shadow-emerald-500/20 transition-all hover:scale-[1.02]" data-tab="feedback">Feedback</button>
                 </div>
 
-                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-btn" class="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-900 focus:outline-none">
                         <i data-lucide="menu" class="w-6 h-6"></i>
@@ -131,7 +121,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden border-t border-slate-800 bg-slate-950/95 backdrop-blur-2xl px-4 pt-3 pb-5 space-y-2">
             <button onclick="switchTab('hero')" class="w-full text-left px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-300 hover:bg-slate-900">Home</button>
             <button onclick="switchTab('problem')" class="w-full text-left px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-300 hover:bg-slate-900">1. The Problem</button>
@@ -142,12 +131,9 @@
         </div>
     </nav>
 
-    <!-- Main Content Views Container -->
     <main class="pt-16 min-h-[calc(100vh-4rem)] flex flex-col justify-between bg-mesh">
         <div class="flex-grow">
-            <!-- Hero Section / Home View -->
             <section id="hero" class="tab-page relative py-20 md:py-32 overflow-hidden flex items-center min-h-[calc(100vh-4rem)]">
-                <!-- Architectural Sustainable Building Background Image with Gradient Overlay -->
                 <div class="absolute inset-0 z-0">
                     <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1920&q=80" 
                          alt="Modern Sustainable Architecture" 
@@ -165,7 +151,7 @@
                             Building Sustainable Cities for <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">Malaysia's Future</span>
                         </h1>
                         <p class="text-base md:text-lg text-slate-300 mb-8 leading-relaxed font-medium">
-                            Explore how Malaysia faces severe urban challenges—from vulnerable wooden structures to intense heat islands and car-dominated roads—and learn how eco-engineering reshapes our communities.
+                            Explore how Malaysians face many challenges from unstable wooden structures to hotter cities and roads filled with cars while learning how eco-engineering can make our communities and lives better!
                         </p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center">
                             <button onclick="switchTab('problem')" class="px-6 py-3.5 rounded-xl font-bold bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 hover:shadow-lg hover:shadow-emerald-500/25 transition-all flex items-center justify-center gap-2 hover:scale-[1.02]">
@@ -176,13 +162,11 @@
                 </div>
             </section>
 
-            <!-- SECTION 1: THE PROBLEM -->
             <section id="problem" class="tab-page hidden py-16">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center max-w-3xl mx-auto mb-12">
-                        <span class="text-emerald-400 font-extrabold uppercase tracking-widest text-xs">Part 1</span>
-                        <h2 class="text-3xl font-black text-white sm:text-4xl mt-1">The Urban Problem in Malaysia</h2>
-                        <p class="mt-3 text-base text-slate-400">Aging housing infrastructure, severe heat island effects, and unsustainably high traffic density create risks for citizens.</p>
+                        <h2 class="text-3xl font-black text-white sm:text-4xl mt-1">The Problem in Malaysia</h2>
+                        <p class="mt-3 text-base text-slate-400">Old and poorly maintained houses, rising temperatures in cities, and heavy traffic are making everyday life more difficult and less safe for people.</p>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
@@ -190,33 +174,33 @@
                             <div class="w-12 h-12 bg-amber-500/10 border border-amber-500/20 rounded-xl flex items-center justify-center text-amber-400 mb-4 group-hover:scale-110 transition-transform">
                                 <i data-lucide="flame" class="w-6 h-6"></i>
                             </div>
-                            <h3 class="text-lg font-bold text-white mb-2">Aging Wooden Houses</h3>
-                            <p class="text-slate-400 text-sm leading-relaxed">Traditional aging wooden homes (*Rumah Papan*) and poorly maintained squatter structures face fire hazards, lack insulation, and rot under heavy tropical monsoon rains.</p>
+                            <h3 class="text-lg font-bold text-white mb-2">Old Wooden Houses</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Traditional old wooden homes (such as "Rumah Papan") and poorly maintained houses face many fire hazards, lack insulation and can easily become damaged or start to rot during Malaysia’s heavy monsoon rains.</p>
                         </div>
 
                         <div class="glass-card-dark rounded-2xl p-6 shadow-xl hover:border-rose-500/40 transition-all group">
                             <div class="w-12 h-12 bg-rose-500/10 border border-rose-500/20 rounded-xl flex items-center justify-center text-rose-400 mb-4 group-hover:scale-110 transition-transform">
                                 <i data-lucide="car" class="w-6 h-6"></i>
                             </div>
-                            <h3 class="text-lg font-bold text-white mb-2">Car-Centric Highways</h3>
-                            <p class="text-slate-400 text-sm leading-relaxed">Malaysian cities have very high private car density. Without safe, connected pedestrian walkways or dedicated lanes, pedestrians face dangerous conditions daily.</p>
+                            <h3 class="text-lg font-bold text-white mb-2">Roads Mainly Built for Cars</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Many Malaysian cities have too many cars on the road, making traffic heavy and travelling difficult. With limited safe walkways and cycling lanes, people who walk or cycle often struggle to get around safely.</p>
                         </div>
 
                         <div class="glass-card-dark rounded-2xl p-6 shadow-xl hover:border-orange-500/40 transition-all group">
                             <div class="w-12 h-12 bg-orange-500/10 border border-orange-500/20 rounded-xl flex items-center justify-center text-orange-400 mb-4 group-hover:scale-110 transition-transform">
                                 <i data-lucide="sun" class="w-6 h-6"></i>
                             </div>
-                            <h3 class="text-lg font-bold text-white mb-2">Urban Heat & Flooding</h3>
-                            <p class="text-slate-400 text-sm leading-relaxed">Excessive asphalt surfaces trap solar heat while lacking permeable drainage systems, frequently triggering sudden *banjir kilat* (flash floods) in towns.</p>
+                            <h3 class="text-lg font-bold text-white mb-2">Hotter Cities and Frequent Flooding</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Large areas of roads and concrete absorb and trap heat, making cities feel hotter. When heavy rain falls, the water cannot drain away properly which often cause flash floods (such as "Banjir kilat") in towns.</p>
                         </div>
                     </div>
 
-                    <!-- MINIGAME SECTION -->
+                 
                     <div class="glass-card-dark rounded-3xl p-6 md:p-8 text-white shadow-2xl relative overflow-hidden border border-slate-800">
                         <div class="max-w-xl mb-6">
                             <span class="inline-block px-3 py-1 bg-rose-500/15 text-rose-400 border border-rose-500/30 rounded-full text-xs font-bold mb-2">Interactive Minigame</span>
-                            <h3 class="text-2xl font-black">Unsafe Pedestrian Simulation</h3>
-                            <p class="text-slate-300 text-sm mt-1">Cross this highway in an unsustainably planned city without walkways or traffic signals using arrow keys or the buttons provided.</p>
+                            <h3 class="text-2xl font-black">Unsafe pedestrian crossing simulation</h3>
+                            <p class="text-slate-300 text-sm mt-1">Cross this highway in an unsustainable planned city without walkways or traffic lights using arrow keys or the buttons provided.</p>
                         </div>
 
                         <div class="flex flex-col lg:flex-row items-center gap-8">
@@ -229,7 +213,7 @@
                                     </div>
                                     <h4 class="text-xl font-black text-white mb-2" id="overlayTitle">ACCIDENT DETECTED!</h4>
                                     <p class="text-sm text-slate-300 max-w-sm mb-6 leading-relaxed" id="overlayText">
-                                        This is what happens in an unsustainable city! Without pedestrian bridges or traffic signals, citizens face constant traffic hazards.
+                                        This is what happens in an unsustainable city! Without pedestrian crossings or traffic lights, people face constant traffic hazards.
                                     </p>
                                     <button onclick="resetGame()" class="px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 font-bold rounded-xl text-sm transition-all shadow-lg shadow-emerald-500/20 hover:scale-105">
                                         Try Again
@@ -253,7 +237,7 @@
 
                                 <div class="bg-amber-500/10 border border-amber-500/20 p-4 rounded-2xl text-amber-300 text-xs leading-relaxed">
                                     <p class="font-bold mb-1 flex items-center gap-1.5"><i data-lucide="info" class="w-4 h-4"></i> Simulation Note:</p>
-                                    <p class="text-amber-200/80">Vehicles travel at high speeds with zero pedestrian protection. Sustainable designs calm traffic and creates dedicated pedestrian greenways.</p>
+                                    <p class="text-amber-200/80">Vehicles travel at high speed with zero pedestrian protection. Sustainable designs calm traffic and creates special green pathways for people to walk safely.</p>
                                 </div>
                             </div>
                         </div>
@@ -261,36 +245,33 @@
                 </div>
             </section>
 
-            <!-- SECTION 2: THE SOLUTION -->
             <section id="solution" class="tab-page hidden py-16">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center max-w-3xl mx-auto mb-12">
-                        <span class="text-emerald-400 font-extrabold uppercase tracking-widest text-xs">Part 2</span>
-                        <h2 class="text-3xl font-black text-white sm:text-4xl mt-1">Sustainable Solutions & Green Engineering</h2>
-                        <p class="mt-3 text-base text-slate-400">Transforming Malaysian urban areas with eco-friendly building materials, renewable solar power, and resilient infrastructure.</p>
+                        <h2 class="text-3xl font-black text-white sm:text-4xl mt-1">Sustainable Solutions and Green Engineering</h2>
+                        <p class="mt-3 text-base text-slate-400">Transforming Malaysian areas with eco-friendly building materials, renewable solar power, and strong infrastructures.</p>
                     </div>
 
-                    <!-- INTERACTIVE BUILDING ANIMATION CANVAS -->
                     <div class="glass-card-dark rounded-3xl p-6 md:p-8 shadow-2xl mb-12 border border-slate-800">
                         <div class="flex flex-col lg:flex-row gap-8 items-center">
                             <div class="w-full lg:w-1/2">
                                 <span class="text-[11px] font-extrabold text-emerald-400 uppercase tracking-widest">Interactive Blueprint</span>
-                                <h3 class="text-2xl font-black text-white mb-2 mt-0.5">Sustainable Construction Builder</h3>
-                                <p class="text-xs text-slate-400 mb-6">Click through the construction phases to build an eco-friendly modern building step-by-step!</p>
+                                <h3 class="text-2xl font-black text-white mb-2 mt-0.5">Become a sustainable construction builder</h3>
+                                <p class="text-xs text-slate-400 mb-6">Click through the construction phases to build an eco-friendly building step-by-step!</p>
 
                                 <div class="space-y-3">
                                     <button onclick="setBuildStage(1)" id="stageBtn1" class="stage-btn w-full text-left p-4 rounded-2xl border transition-all flex items-start gap-3.5 bg-emerald-500/10 border-emerald-500/50">
                                         <div class="w-7 h-7 rounded-lg bg-emerald-400 text-slate-950 flex items-center justify-center font-black text-xs shrink-0 mt-0.5 shadow">1</div>
                                         <div>
-                                            <h4 class="text-sm font-bold text-white">Permeable Eco-Foundation & Rain Storage</h4>
-                                            <p class="text-xs text-slate-400 mt-0.5">Replaces concrete ground with porous paving and underground tanks to prevent *banjir kilat*.</p>
+                                            <h4 class="text-sm font-bold text-white">Eco-Friendly Foundations and Rainwater Storage</h4>
+                                            <p class="text-xs text-slate-400 mt-0.5">Uses special ground surfaces that allow rainwater to soak into the soil, while underground tanks collect extra water to help prevent the flash floods.</p>
                                         </div>
                                     </button>
 
                                     <button onclick="setBuildStage(2)" id="stageBtn2" class="stage-btn w-full text-left p-4 rounded-2xl border transition-all flex items-start gap-3.5 bg-slate-900/60 border-slate-800">
                                         <div class="w-7 h-7 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-black text-xs shrink-0 mt-0.5">2</div>
                                         <div>
-                                            <h4 class="text-sm font-bold text-white">Engineered Bamboo & Fire-Resistant Frame</h4>
+                                            <h4 class="text-sm font-bold text-white">Engineered Bamboo and Fire-Resistant Frame</h4>
                                             <p class="text-xs text-slate-400 mt-0.5">Replaces fragile timber with treated Malaysian engineered bamboo and fire-retardant structural framing.</p>
                                         </div>
                                     </button>
@@ -306,7 +287,7 @@
                                     <button onclick="setBuildStage(4)" id="stageBtn4" class="stage-btn w-full text-left p-4 rounded-2xl border transition-all flex items-start gap-3.5 bg-slate-900/60 border-slate-800">
                                         <div class="w-7 h-7 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-black text-xs shrink-0 mt-0.5">4</div>
                                         <div>
-                                            <h4 class="text-sm font-bold text-white">Vertical Gardens & Natural Ventilation</h4>
+                                            <h4 class="text-sm font-bold text-white">Vertical Gardens and Natural Ventilation</h4>
                                             <p class="text-xs text-slate-400 mt-0.5">Living plant walls reduce indoor temperatures by up to 4°C, lowering air-conditioning power draw.</p>
                                         </div>
                                     </button>
@@ -317,22 +298,24 @@
                                 <canvas id="buildingCanvas" width="440" height="340" class="w-full max-w-[440px] bg-slate-950 rounded-2xl border border-slate-800 shadow-2xl"></canvas>
                                 <div class="mt-4 text-center">
                                     <span id="stageLabel" class="inline-block px-4 py-1.5 bg-emerald-500/10 text-emerald-400 text-xs font-bold rounded-full border border-emerald-500/20">
-                                        Phase 1: Eco-Foundation & Rain Storage
+                                        Phase 1: eco-foundation and rain storage
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- SOLUTION HIGHLIGHT CARDS -->
+             <div class="text-center max-w-3xl mx-auto mb-10">
+                          <h2 class="text-3xl font-black text-white sm:text-4xl mt-1">Extra solutions</h2>
+                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="glass-card-dark p-6 rounded-2xl border border-slate-800 flex gap-4">
                             <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-400 flex items-center justify-center shrink-0">
                                 <i data-lucide="bus" class="w-6 h-6"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-white text-base mb-1">Transit-Oriented Development (TOD)</h4>
-                                <p class="text-slate-400 text-xs leading-relaxed">Designing high-density residential hubs around MRT and LRT stations in Klang Valley, Penang, and JB reduces highway traffic congestion.</p>
+                                <h4 class="font-bold text-white text-base mb-1">Building communities around public transport</h4>
+                                <p class="text-slate-400 text-xs leading-relaxed">Building more homes and apartments near MRT and LRT stations in places like Klang Valley and Penang makes it easier for people to use public transport and helps reduce traffic jams.</p>
                             </div>
                         </div>
 
@@ -341,31 +324,28 @@
                                 <i data-lucide="trees" class="w-6 h-6"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-white text-base mb-1">Urban Tree Canopy Expansion</h4>
-                                <p class="text-slate-400 text-xs leading-relaxed">Planting shade-giving native trees along roadways counters the Urban Heat Island effect and cools down dense city neighborhoods.</p>
+                                <h4 class="font-bold text-white text-base mb-1">Planting more trees in cities</h4>
+                                <p class="text-slate-400 text-xs leading-relaxed">Planting more local trees along roads provides shade, reduces the heat, and makes city areas cooler and more comfortable for everyone.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- SECTION 3: WHAT YOU CAN DO (CLICKER GAME) -->
             <section id="action" class="tab-page hidden py-16">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center max-w-3xl mx-auto mb-10">
-                        <span class="text-emerald-400 font-extrabold uppercase tracking-widest text-xs">Part 3</span>
                         <h2 class="text-3xl font-black text-white sm:text-4xl mt-1">What YOU can do</h2> 
-                        <p class="mt-3 text-base text-slate-400">Click on the unsustainable building target to generate actionable green ideas and transform it into an eco-building!</p>
+                        <p class="mt-3 text-base text-slate-400">Click on the unsustainable building target to generate actionable green ideas and transform it into an eco-friendly building!</p>
                     </div>
 
-                    <!-- CLICKER GAME INTERFACE -->
+                
                     <div class="max-w-4xl mx-auto glass-card-dark border border-slate-800 rounded-3xl p-6 md:p-10 shadow-2xl relative overflow-hidden">
-                        
-                        <!-- Progress Header -->
+                 
                         <div class="mb-8">
                             <div class="flex justify-between items-center mb-2">
-                                <span class="text-xs font-bold text-slate-300 uppercase tracking-wider">Transformation Progress</span>
-                                <span id="clickCountText" class="text-xs font-black text-emerald-400">0 / 15 Ideas Unlocked</span>
+                                <span class="text-xs font-bold text-slate-300 uppercase tracking-wider">Transformation progress</span>
+                                <span id="clickCountText" class="text-xs font-black text-emerald-400">0 / 15 Ideas unlocked</span>
                             </div>
                             <div class="w-full bg-slate-900 h-3.5 rounded-full overflow-hidden p-0.5 border border-slate-800">
                                 <div id="progressBar" class="bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-400 h-full w-0 rounded-full transition-all duration-300"></div>
@@ -374,14 +354,14 @@
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                             
-                            <!-- Interactive House Target -->
+    
                             <div class="flex flex-col items-center justify-center relative">
                                 <div id="houseTarget" onclick="clickHouse(event)" class="relative cursor-pointer transition-all duration-200 hover:scale-105 active:scale-95 select-none p-6 bg-slate-900/80 rounded-3xl border-2 border-dashed border-slate-700/80 shadow-2xl flex flex-col items-center w-full max-w-[280px]">
                                     <div id="houseIconContainer" class="w-36 h-36 flex items-center justify-center text-amber-500 transition-all duration-500">
                                         <i data-lucide="home" class="w-28 h-28 text-amber-500"></i>
                                     </div>
                                     <span id="houseBadge" class="mt-4 px-3 py-1 bg-amber-500/10 text-amber-400 border border-amber-500/20 text-[11px] font-bold rounded-full text-center">
-                                        Status: Unsustainable Structure
+                                        Status: Unsustainable building
                                     </span>
                                     <p class="text-[11px] text-emerald-400 mt-3 font-bold animate-pulse flex items-center gap-1">
                                         <i data-lucide="mouse-pointer-click" class="w-3.5 h-3.5"></i> CLICK TO ADD IDEAS
@@ -389,10 +369,10 @@
                                 </div>
                             </div>
 
-                            <!-- Revealed Ideas Log -->
+              
                             <div class="bg-slate-900/90 p-5 rounded-2xl border border-slate-800 h-72 flex flex-col">
                                 <h4 class="text-[11px] font-extrabold text-slate-400 uppercase tracking-widest mb-3 flex items-center gap-1.5">
-                                    <i data-lucide="lightbulb" class="w-4 h-4 text-amber-400"></i> Unlocked Student Actions
+                                    <i data-lucide="lightbulb" class="w-4 h-4 text-amber-400"></i> Unlocked new actions
                                 </h4>
                                 <div id="ideasList" class="flex-grow overflow-y-auto space-y-2.5 pr-2">
                                     <p id="emptyPrompt" class="text-xs text-slate-500 text-center py-12 italic font-medium">
@@ -403,10 +383,10 @@
 
                         </div>
 
-                        <!-- Completion Card -->
+          
                         <div id="completionCard" class="hidden mt-8 p-6 bg-gradient-to-r from-emerald-500 to-teal-400 rounded-2xl text-slate-950 text-center shadow-xl">
                             <h3 class="text-2xl font-black mb-1">🎉 City Transformed!</h3>
-                            <p class="text-xs font-semibold text-slate-900 max-w-xl mx-auto mb-4">You have successfully transformed an unsafe structure into a modern, energy-efficient, and sustainable eco-community building!</p>
+                            <p class="text-xs font-semibold text-slate-900 max-w-xl mx-auto mb-4">You have successfully transformed an unsafe structure into a modern, energy efficient, and sustainable eco-friendly building!</p>
                             <button onclick="resetClicker()" class="px-5 py-2 bg-slate-950 text-emerald-400 font-bold text-xs rounded-xl hover:bg-slate-900 transition-colors shadow">
                                 Restart simulation
                             </button>
@@ -415,13 +395,11 @@
                 </div>
             </section>
 
-            <!-- SECTION 4: RESOURCES / SUMBER -->
             <section id="resources" class="tab-page hidden py-16">
                 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center mb-12">
-                        <span class="text-emerald-400 font-extrabold uppercase tracking-widest text-xs">Citations</span>
-                        <h2 class="text-3xl font-black text-white mt-1">Sources & References</h2>
-                        <p class="mt-2 text-slate-400 text-sm">Official documentation and literature cited for this project.</p>
+                        <h2 class="text-3xl font-black text-white mt-1">Sources and references</h2>
+                        <p class="mt-2 text-slate-400 text-sm">Sources used for research on this website</p>
                     </div>
 
                     <div class="space-y-4">
@@ -460,7 +438,6 @@
                 </div>
             </section>
 
-            <!-- SECTION 5: TEACHER FEEDBACK / APPROVAL FORM -->
             <section id="feedback" class="tab-page hidden py-16">
                 <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center mb-10">
@@ -484,7 +461,7 @@
                             </div>
 
                             <div>
-                                <label class="block text-xs font-extrabold text-slate-300 uppercase tracking-wider mb-2">How much would you rate this project?</label>
+                                <label class="block text-xs font-extrabold text-slate-300 uppercase tracking-wider mb-2">How much would you rate this website?</label>
                                 <select name="rating" required class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-800 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 focus:outline-none text-sm text-white">
                                     <option value="" disabled selected>Select a rating</option>
                                     <option value="1">1 - Poor</option>
@@ -496,12 +473,12 @@
                             </div>
 
                             <div>
-                                <label class="block text-xs font-extrabold text-slate-300 uppercase tracking-wider mb-2">Comments & Feedback</label>
+                                <label class="block text-xs font-extrabold text-slate-300 uppercase tracking-wider mb-2">Comments and feedback</label>
                                 <textarea name="comments" rows="4" required placeholder="Write your approval notes or suggestions here..." class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-800 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 focus:outline-none text-sm text-white placeholder:text-slate-600"></textarea>
                             </div>
 
                             <div>
-                                <label class="block text-xs font-extrabold text-slate-300 uppercase tracking-wider mb-2">Approval Status</label>
+                                <label class="block text-xs font-extrabold text-slate-300 uppercase tracking-wider mb-2">Approval status</label>
                                 <div class="flex gap-6">
                                     <label class="flex items-center gap-2 text-sm font-semibold text-slate-200 cursor-pointer">
                                         <input type="radio" name="approval_status" value="approved" checked class="text-emerald-500 focus:ring-emerald-500 bg-slate-900 border-slate-700">
@@ -509,18 +486,18 @@
                                     </label>
                                     <label class="flex items-center gap-2 text-sm font-semibold text-slate-200 cursor-pointer">
                                         <input type="radio" name="approval_status" value="Needs Revision" class="text-amber-500 focus:ring-amber-500 bg-slate-900 border-slate-700">
-                                        Needs Revision
+                                        Needs revision
                                     </label>
                                 </div>
                             </div>
 
                             <button type="submit" class="w-full py-3.5 bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 font-extrabold rounded-xl text-sm transition-all shadow-lg shadow-emerald-500/20 hover:scale-[1.01]">
-                                Submit Official Assessment
+                                Submit
                             </button>
                         </form>
 
                         <div id="submissionMessage" class="hidden mt-6 p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl text-emerald-300 text-sm text-center font-bold">
-                            ✅ Thank you! Project approval feedback has been successfully recorded.
+                            ✅ Thank you for the feedback!
                         </div>
                     </div>
                 </div>
@@ -535,7 +512,7 @@
         </footer>
     </main>
 
-    <!-- JAVASCRIPT LOGIC -->
+   
     <script>
         // Initialize Lucide Icons
         lucide.createIcons();
@@ -597,7 +574,6 @@
         let gameOver = false;
         let animationFrameId = null;
 
-        // Vehicle lanes definition (highways with no pedestrian crossings)
         const vehicles = [
             { x: 0, y: 70, width: 55, height: 25, speed: 8.5, color: '#f43f5e' },
             { x: 200, y: 70, width: 60, height: 25, speed: 8.5, color: '#f43f5e' },
@@ -615,7 +591,6 @@
             if (dir === 'left' && player.x - player.speed >= 10) player.x -= player.speed;
             if (dir === 'right' && player.x + player.speed <= 450) player.x += player.speed;
 
-            // Trigger outcome when reaching the top safe boundary zone
             if (player.y < 45) {
                 triggerSuccessOutcome();
             }
@@ -658,16 +633,13 @@
             function gameLoop() {
                 fCtx.clearRect(0, 0, fCanvas.width, fCanvas.height);
 
-                // Asphalt Road
                 fCtx.fillStyle = '#0f172a';
                 fCtx.fillRect(0, 0, fCanvas.width, fCanvas.height);
 
-                // Start/End Safe Grass Borders (Very Narrow to show poor planning)
                 fCtx.fillStyle = '#1e293b';
                 fCtx.fillRect(0, 0, fCanvas.width, 40);
                 fCtx.fillRect(0, 320, fCanvas.width, 40);
 
-                // Lane Divider Lines
                 fCtx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
                 fCtx.setLineDash([15, 15]);
                 [105, 165, 225, 285].forEach(y => {
@@ -678,12 +650,10 @@
                 });
                 fCtx.setLineDash([]);
 
-                // Warning Text on Canvas Road
                 fCtx.fillStyle = 'rgba(239, 68, 68, 0.2)';
                 fCtx.font = '700 12px Plus Jakarta Sans';
                 fCtx.fillText('NO SIDEWALKS & NO PEDESTRIAN CROSSING', 110, 25);
 
-                // Move & Draw Vehicles
                 vehicles.forEach(v => {
                     if (!gameOver) {
                         v.x += v.speed;
@@ -696,7 +666,7 @@
                     fCtx.roundRect(v.x, v.y, v.width, v.height, 6);
                     fCtx.fill();
 
-                    // Vehicle Headlights
+         
                     fCtx.fillStyle = '#fef08a';
                     if (v.speed > 0) {
                         fCtx.fillRect(v.x + v.width - 4, v.y + 3, 3, 5);
@@ -706,7 +676,7 @@
                         fCtx.fillRect(v.x + 1, v.y + v.height - 8, 3, 5);
                     }
 
-                    // AABB Collision Detection with Player
+            
                     if (
                         player.x < v.x + v.width &&
                         player.x + player.width > v.x &&
@@ -717,7 +687,7 @@
                     }
                 });
 
-                // Draw Pedestrian Player
+      
                 fCtx.fillStyle = '#10b981';
                 fCtx.beginPath();
                 fCtx.arc(player.x + 10, player.y + 10, 10, 0, Math.PI * 2);
@@ -734,9 +704,7 @@
             gameLoop();
         }
 
-        /* ==========================================================================
-           PART 2: BUILD ANIMATION CANVAS (SOLUTION PAGE - ARCHITECTURAL SKETCH STYLE)
-           ========================================================================== */
+
         const bCanvas = document.getElementById('buildingCanvas');
         const bCtx = bCanvas.getContext('2d');
         let currentStage = 1;
@@ -757,10 +725,10 @@
             }
 
             const labels = [
-                "Phase 1: Eco-Foundation & Rain Storage",
+                "Phase 1: Eco-Foundation and Rain Storage",
                 "Phase 2: Engineered Bamboo Frame",
                 "Phase 3: Rooftop Solar PV System",
-                "Phase 4: Vertical Gardens & Cooling"
+                "Phase 4: Vertical Gardens amd Cooling"
             ];
             document.getElementById('stageLabel').innerText = labels[stage - 1];
 
@@ -770,8 +738,8 @@
         function drawBuilding() {
             bCtx.clearRect(0, 0, bCanvas.width, bCanvas.height);
 
-            // 1. Blueprint Grid Background (Human Architectural Paper aesthetic)
-            bCtx.fillStyle = '#0a1428'; // Deep blueprint dark blue
+          
+            bCtx.fillStyle = '#0a1428'; 
             bCtx.fillRect(0, 0, bCanvas.width, bCanvas.height);
 
             bCtx.strokeStyle = 'rgba(56, 189, 248, 0.12)';
@@ -788,7 +756,7 @@
                 bCtx.stroke();
             }
 
-            // Blueprint Header Stamp
+   
             bCtx.strokeStyle = 'rgba(56, 189, 248, 0.4)';
             bCtx.strokeRect(15, 15, 170, 30);
             bCtx.fillStyle = '#38bdf8';
@@ -796,7 +764,7 @@
             bCtx.fillText('ARCHITECTURAL DRAFT v2.4', 22, 28);
             bCtx.fillText('SCALE: 1:100 (SDG 11 GREEN)', 22, 38);
 
-            // Ground Level & Dimension Guidelines
+
             bCtx.strokeStyle = 'rgba(148, 163, 184, 0.3)';
             bCtx.setLineDash([4, 4]);
             bCtx.beginPath();
@@ -808,20 +776,20 @@
             bCtx.font = '500 10px monospace';
             bCtx.fillText('▼ GROUND LEVEL EL. 0.00', 35, 290);
 
-            // 2. Stage 1: Foundation & Permeable Underground Rain Reservoir
+
             if (currentStage >= 1) {
-                // Soil Layer
+
                 bCtx.fillStyle = 'rgba(30, 41, 59, 0.8)';
                 bCtx.fillRect(50, 275, 340, 50);
 
-                // Underground Permeable Tank (Hand-sketched hatched look)
+      
                 bCtx.fillStyle = 'rgba(14, 165, 233, 0.25)';
                 bCtx.strokeStyle = '#38bdf8';
                 bCtx.lineWidth = 1.8;
                 bCtx.fillRect(130, 285, 180, 35);
                 bCtx.strokeRect(130, 285, 180, 35);
 
-                // Internal Hatch lines
+    
                 bCtx.strokeStyle = 'rgba(56, 189, 248, 0.4)';
                 bCtx.lineWidth = 1;
                 for (let i = 140; i < 300; i += 12) {
@@ -830,7 +798,7 @@
                     bCtx.stroke();
                 }
 
-                // Annotation Callout Line
+
                 bCtx.strokeStyle = '#38bdf8';
                 bCtx.beginPath();
                 bCtx.moveTo(310, 302); bCtx.lineTo(345, 302);
@@ -840,23 +808,23 @@
                 bCtx.fillText('RAIN TANK [10,000L]', 320, 297);
             }
 
-            // 3. Stage 2: Structural Engineered Bamboo Framing & Walls
+    
             if (currentStage >= 2) {
-                // Columns & Beams Structure
-                bCtx.strokeStyle = '#f59e0b'; // Architectural amber/wood tint
+               
+                bCtx.strokeStyle = '#f59e0b'; 
                 bCtx.lineWidth = 2.5;
 
-                // Outer Shell
+               
                 bCtx.strokeRect(90, 110, 260, 165);
                 bCtx.fillStyle = 'rgba(245, 158, 11, 0.08)';
                 bCtx.fillRect(90, 110, 260, 165);
 
-                // Floor Slab
+            
                 bCtx.beginPath();
                 bCtx.moveTo(90, 190); bCtx.lineTo(350, 190);
                 bCtx.stroke();
 
-                // Architectural Structural Cross-Bracing (Hand Drawn aesthetic)
+            
                 bCtx.strokeStyle = 'rgba(245, 158, 11, 0.35)';
                 bCtx.lineWidth = 1.2;
                 bCtx.beginPath();
@@ -866,7 +834,7 @@
                 bCtx.moveTo(350, 110); bCtx.lineTo(220, 190);
                 bCtx.stroke();
 
-                // Glazed Windows Draft
+        
                 bCtx.strokeStyle = '#7dd3fc';
                 bCtx.lineWidth = 1.5;
                 bCtx.fillStyle = 'rgba(56, 189, 248, 0.2)';
@@ -878,15 +846,15 @@
                     bCtx.strokeRect(115 + col * 75, 205, 48, 50);
                 }
 
-                // Annotation
+      
                 bCtx.fillStyle = '#fbbf24';
                 bCtx.font = '600 9px monospace';
                 bCtx.fillText('BAMBOO FRAME STRUCTURE', 90, 103);
             }
 
-            // 4. Stage 3: Rooftop Solar PV & Sloped Roof Architecture
+
             if (currentStage >= 3) {
-                // Pitch Roof Construction
+           
                 bCtx.strokeStyle = '#34d399';
                 bCtx.lineWidth = 2.5;
                 bCtx.beginPath();
@@ -898,12 +866,12 @@
                 bCtx.fillStyle = 'rgba(16, 185, 129, 0.12)';
                 bCtx.fill();
 
-                // Solar Panels Array
+         
                 bCtx.fillStyle = '#1e3a8a';
                 bCtx.strokeStyle = '#60a5fa';
                 bCtx.lineWidth = 1.5;
 
-                // Left Panel
+            
                 bCtx.save();
                 bCtx.translate(130, 85);
                 bCtx.rotate(-0.35);
@@ -911,7 +879,7 @@
                 bCtx.strokeRect(-35, -7, 70, 14);
                 bCtx.restore();
 
-                // Right Panel
+        
                 bCtx.save();
                 bCtx.translate(310, 85);
                 bCtx.rotate(0.35);
@@ -919,7 +887,7 @@
                 bCtx.strokeRect(-35, -7, 70, 14);
                 bCtx.restore();
 
-                // Sun Rays Annotation
+      
                 bCtx.strokeStyle = '#facc15';
                 bCtx.setLineDash([2, 2]);
                 bCtx.beginPath();
@@ -933,13 +901,13 @@
                 bCtx.fillText('SOLAR ARRAY 12.5 kWp', 170, 45);
             }
 
-            // 5. Stage 4: Vertical Living Facade (Greenery)
+      
             if (currentStage >= 4) {
                 bCtx.fillStyle = 'rgba(16, 185, 129, 0.7)';
                 bCtx.strokeStyle = '#34d399';
                 bCtx.lineWidth = 1;
 
-                // Vertical Green Wall Left
+  
                 for (let y = 115; y < 270; y += 14) {
                     bCtx.beginPath();
                     bCtx.arc(88, y, 6, 0, Math.PI * 2);
@@ -947,7 +915,7 @@
                     bCtx.stroke();
                 }
 
-                // Vertical Green Wall Right
+           
                 for (let y = 115; y < 270; y += 14) {
                     bCtx.beginPath();
                     bCtx.arc(352, y, 6, 0, Math.PI * 2);
@@ -955,16 +923,14 @@
                     bCtx.stroke();
                 }
 
-                // Greenery Callout
+             
                 bCtx.fillStyle = '#34d399';
                 bCtx.font = '600 9px monospace';
                 bCtx.fillText('◄ VERTICAL BIOPHILIC WALL (-4°C COOLING)', 125, 272);
             }
         }
 
-        /* ==========================================================================
-           PART 3: CLICKER GAME (WHAT YOU CAN DO PAGE)
-           ========================================================================== */
+
         let clickCount = 0;
         const maxClicks = 15;
 
@@ -1011,17 +977,17 @@
 
             if (clickCount === 5) {
                 container.innerHTML = `<i data-lucide="home" class="w-28 h-28 text-emerald-400"></i>`;
-                badge.innerText = "Status: Solar-Powered & Insulated";
+                badge.innerText = "Status: solar-powered and insulated";
                 badge.className = "mt-4 px-3 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[11px] font-bold rounded-full text-center";
                 lucide.createIcons();
             } else if (clickCount === 10) {
                 container.innerHTML = `<i data-lucide="building-2" class="w-28 h-28 text-teal-300"></i>`;
-                badge.innerText = "Status: Modern Eco-Building";
+                badge.innerText = "Status: modern eco-friendly building";
                 badge.className = "mt-4 px-3 py-1 bg-teal-500/10 text-teal-300 border border-teal-500/20 text-[11px] font-bold rounded-full text-center";
                 lucide.createIcons();
             } else if (clickCount >= maxClicks) {
                 container.innerHTML = `<i data-lucide="building" class="w-28 h-28 text-cyan-300"></i>`;
-                badge.innerText = "Status: Fully Sustainable Eco-Structure!";
+                badge.innerText = "Status: Fully sustainable eco-friendly structure!";
                 badge.className = "mt-4 px-3 py-1 bg-gradient-to-r from-emerald-400 to-teal-400 text-slate-950 text-[11px] font-black rounded-full text-center shadow-lg";
                 document.getElementById('completionCard').classList.remove('hidden');
                 lucide.createIcons();
@@ -1034,7 +1000,7 @@
             
             const particle = document.createElement('div');
             particle.className = 'floating-idea text-emerald-400 text-xs font-black';
-            particle.innerText = '+1 Green Idea!';
+            particle.innerText = '+1 new idea!';
             
             const x = e.clientX - rect.left;
             const y = e.clientY - rect.top;
